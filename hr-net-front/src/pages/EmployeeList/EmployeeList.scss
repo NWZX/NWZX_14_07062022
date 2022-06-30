@@ -1,0 +1,22 @@
+.list-e-container {
+    width: 80%;
+    margin: auto;
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+}
+.search-input{
+    width: 30%;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+    padding-inline-start: 0.5rem;
+    
+        height: 2.5rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 1.25rem;
+        &:focus {
+            outline-color: #7ea6f0;
+        }
+}
